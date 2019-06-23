@@ -1,32 +1,32 @@
 Company,Year,Reading Level,Word Count,Reading Time,HTML
-Apple,2019,,,,Apple_2019.html
-Apple,2018,,,,Apple_2018.html
-Apple,2017,,,,Apple_2017.html
-Apple,2016,,,,Apple_2016.html
-Apple,2015,,,,Apple_2015.html
-Apple,2014,,,,Apple_2014.html
+Apple,2019,,41896,190 min read,Apple_2019.html
+Apple,2018,,43553,198 min read,Apple_2018.html
+Apple,2017,,6135,173 min read,Apple_2017.html
+Apple,2016,,6141,176 min read,Apple_2016.html
+Apple,2015,,250,10 min read,Apple_2015.html
+Apple,2014,,2730,23 min read,Apple_2014.html
 AT&T,2019,,,,AT&T_2019.html
 AT&T,2018,,,,AT&T_2018.html
 AT&T,2017,,,,AT&T_2017.html
 AT&T,2016,,,,AT&T_2016.html
-Facebook,2019,,,,Facebook_2019.html
-Facebook,2018,,,,Facebook_2018.html
-Facebook,2017,,,,Facebook_2017.html
-Facebook,2016,,,,Facebook_2016.html
-Facebook,2015,,,,Facebook_2015.html
-Facebook,2014,,,,Facebook_2014.html
-Google,2019,,,,Google_2019.html
-Google,2018,,,,Google_2018.html
+Facebook,2019,,2818,55 min read,Facebook_2019.html
+Facebook,2018,,2710,155 min read,Facebook_2018.html
+Facebook,2017,,3859,261 min read,Facebook_2017.html
+Facebook,2016,,4001,47 min read,Facebook_2016.html
+Facebook,2015,,857,37 min read,Facebook_2015.html
+Facebook,2014,,4196,68 min read,Facebook_2014.html
+Google,2019,,4705,79 min read,Google_2019.html
+Google,2018,,4555,82 min read,Google_2018.html
 Twitter,2019,,,,Twitter_2019.html
 Twitter,2018,,,,Twitter_2018.html
 Twitter,2017,,,,Twitter_2017.html
-Microsoft,2019,,,,Microsoft_2019.html
-Microsoft,2018,,,,Microsoft_2018.html
+Microsoft,2019,,3941,62 min read,Microsoft_2019.html
+Microsoft,2018,,2966,59 min read,Microsoft_2018.html
 Microsoft,2017,,,,Microsoft_2017.html
 Microsoft,2016,,,,Microsoft_2016.html
-Amazon,2019,,,,Amazon_2019.html
-Amazon,2018,,,,Amazon_2018.html
-Amazon,2017,,,,Amazon_2017.html
-Amazon,2016,,,,Amazon_2016.html
-Amazon,2015,,,,Amazon_2015.html
-Amazon,2014,,,,Amazon_2014.html
+Amazon,2019,,2848,14 min read,Amazon_2019.html
+Amazon,2018,,2787,14 min read,Amazon_2018.html
+Amazon,2017,,2744,14 min read,Amazon_2017.html
+Amazon,2016,,2861,15 min read,Amazon_2016.html
+Amazon,2015,,3283,17 min read,Amazon_2015.html
+Amazon,2014,,3540,18 min read,Amazon_2014.html

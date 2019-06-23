@@ -421,8 +421,19 @@ input:checked + .slider:before {
   border: 1px solid #1019a8;
   height: 70vh;
   background-color: white;
+  overflow-y: scroll;
 }
 
 #policy-1{
   box-shadow: 10px 10px #f4cc00;
+}
+
+#policy-1-html, #policy-2-html {
+  padding: 10px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+table.diff, tbody {
+  width: 100%;
 }
