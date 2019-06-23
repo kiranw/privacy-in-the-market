@@ -1,20 +1,186 @@
+@font-face {
+  font-family: "Px-Grotesk-Regular";
+  src: url("../fonts/Px-Grotesk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Px-Grotesk-Light";
+  src: url("../fonts/Px-Grotesk-Light.ttf");
+}
+
+@font-face {
+  font-family: "Px-Grotesk-Regular-Italic";
+  src: url("../fonts/Px-Grotesk-Regular-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Px-Grotesk-Bold";
+  src: url("../fonts/Px-Grotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Px-Grotesk-Bold-Italic";
+  src: url("../fonts/Px-Grotesk-Bold-Italic.ttf");
+}
+
+@font-face {
+  font-family: "bigcaslon-regular";
+  src: url("../fonts/bigcaslon-regular.ttf");
+}
+
+
+
 body {
-  background-color: #f9f9f9;
+  background-color: #fadd4a;
   margin: 0 auto;
   padding-left: 2%;
   padding-top: 1%;
+  font-family: "Px-Grotesk-Regular";
+  color: #1019a8;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+}
+.navbar-custom {
+  background-color: #fadd4a;
+  border-color: #1019a8;
+}
+.navbar-custom .navbar-brand {
+  color: #1019a8;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #0c1279;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #1019a8;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #1019a8;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #1019a8;
+  border-left: 1px solid #1019a8;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+  color: #1019a8;
+  background-color: #f9d72a;
+}
+
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #f9d72a;
+  background-color: #1019a8;
+}
+
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #1019a8;
+  background-color: #f9d72a;
+}
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #1019a8;
+  background-color: #f9d72a;
+}
+
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  background-color: #1019a8;
+  color: #fff;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #f9d627;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #1019a8;
+  border-bottom-color: #1019a8;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #1019a8;
+  color: #fff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #1019a8;
+  border-bottom-color: #1019a8;
+  background-color: #1019a8;
+  color: #fff;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #1019a8;
+  border-bottom-color: #1019a8;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #1019a8;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #1019a8;
+    color: #fff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    background-color: #1019a8;
+    color: #fff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    background-color: #1019a8;
+    color: #fff;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #1019a8;
+}
+.navbar-custom .navbar-link:hover {
+  color: #1019a8;
 }
 
 .headline-style {
-  color: #4286f4;
+  font-family: "Px-Grotesk-Bold";
+  font-weight: 800;
+  margin-top: -5px;
 }
 
-.section-header {
-  margin-top: 50px;
+.subheader {
+  font-family: "Px-Grotesk-Regular-Italic";
+  font-weight: 800;
 }
 
-/**** ADD YOUR STYLES ****/
-
+#footer {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  font-size: 1em;
+  padding: 15px;
+}
 
 /****************/
 /*   BAR-CHART  */
