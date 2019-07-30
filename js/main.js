@@ -11,7 +11,7 @@ function selectYear(yearString){
     updateMetadata(company,year);
 
 	policy_1 = "policies/"+company.toLowerCase()+"_"+year+"_processed.html";
-    policy_2 = "policies/"+company.toLowerCase()+"_"+year+"_processed.html";
+    policy_2 = "policies/"+company.toLowerCase()+"_"+(year+1)+"_processed.html";
 
     // get files
     // open files and generate html
